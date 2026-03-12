@@ -3,7 +3,7 @@ import json
 from transformers import pipeline
 
 # Load AI model
-generator = pipeline("text-generation", model="google/flan-t5-small")
+generator = pipeline("text2text-generation", model="google/flan-t5-small")
 
 # Load patient data
 with open("patients.json") as f:
