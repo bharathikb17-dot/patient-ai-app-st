@@ -4,15 +4,126 @@
       "id": "P001",
       "name": "John Doe",
       "age": 45,
+      "gender": "Male",
       "condition": "Diabetes",
-      "medication": "Metformin"
+      "medication": "Metformin",
+      "allergies": ["Penicillin"],
+      "lifestyle": {
+        "smoking": "No",
+        "alcohol": "Occasional",
+        "exercise": "2 times per week",
+        "diet": "Moderate carbohydrate"
+      },
+      "vitals": {
+        "blood_pressure": "130/85",
+        "heart_rate": 78,
+        "bmi": 27.5
+      },
+      "lab_results": {
+        "hba1c": "7.2%",
+        "fasting_glucose": "140 mg/dL",
+        "cholesterol": "210 mg/dL"
+      },
+      "medical_history": [
+        {
+          "year": 2021,
+          "diagnosis": "Type 2 Diabetes",
+          "treatment": "Metformin prescribed"
+        },
+        {
+          "year": 2023,
+          "diagnosis": "High Cholesterol",
+          "treatment": "Diet modification"
+        }
+      ],
+      "doctor_visits": [
+        {
+          "date": "2024-02-10",
+          "doctor": "Dr. Mehta",
+          "notes": "Blood sugar slightly elevated"
+        },
+        {
+          "date": "2024-08-15",
+          "doctor": "Dr. Shah",
+          "notes": "Recommended exercise routine"
+        }
+      ]
     },
+
     {
       "id": "P002",
       "name": "Jane Smith",
       "age": 50,
+      "gender": "Female",
       "condition": "Hypertension",
-      "medication": "Amlodipine"
+      "medication": "Amlodipine",
+      "allergies": ["Sulfa Drugs"],
+      "lifestyle": {
+        "smoking": "No",
+        "alcohol": "No",
+        "exercise": "Daily walking",
+        "diet": "Low sodium"
+      },
+      "vitals": {
+        "blood_pressure": "145/95",
+        "heart_rate": 82,
+        "bmi": 29.1
+      },
+      "lab_results": {
+        "cholesterol": "220 mg/dL",
+        "triglycerides": "180 mg/dL"
+      },
+      "medical_history": [
+        {
+          "year": 2020,
+          "diagnosis": "Hypertension",
+          "treatment": "Amlodipine started"
+        }
+      ],
+      "doctor_visits": [
+        {
+          "date": "2024-03-12",
+          "doctor": "Dr. Rao",
+          "notes": "Blood pressure monitoring recommended"
+        }
+      ]
+    },
+
+    {
+      "id": "P003",
+      "name": "Rahul Sharma",
+      "age": 38,
+      "gender": "Male",
+      "condition": "Asthma",
+      "medication": "Salbutamol Inhaler",
+      "allergies": ["Dust", "Pollen"],
+      "lifestyle": {
+        "smoking": "No",
+        "exercise": "Yoga",
+        "diet": "Balanced"
+      },
+      "vitals": {
+        "blood_pressure": "120/80",
+        "heart_rate": 72,
+        "bmi": 24.3
+      },
+      "lab_results": {
+        "lung_function_test": "Reduced airflow"
+      },
+      "medical_history": [
+        {
+          "year": 2018,
+          "diagnosis": "Chronic Asthma",
+          "treatment": "Inhaler therapy"
+        }
+      ],
+      "doctor_visits": [
+        {
+          "date": "2024-01-18",
+          "doctor": "Dr. Kapoor",
+          "notes": "Advised breathing exercises"
+        }
+      ]
     }
   ]
 }
